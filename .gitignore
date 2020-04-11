@@ -132,3 +132,6 @@ dmypy.json
 koscompiled/
 
 debug_output.txt
+
+*.ksm
+*.ksm.txt

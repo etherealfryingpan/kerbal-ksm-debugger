@@ -19,7 +19,8 @@ def main():
 
     debug_part = par.parse_debug_section(byte_iter)
 
-    log(code_parts[0])
+    for code_part in code_parts:
+        log(code_part)
 
     log(debug_part)
 
