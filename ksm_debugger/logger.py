@@ -18,5 +18,9 @@ def init_logs(n: argparse.Namespace):
 
     if n.output_file:
         log_loc = n.output_file
+        
+        # Overwrites / creates the file
+        with open(log_loc, 'w') as f:
+            pass
     
     print('Logging output to: {}\n'.format(log_loc))
